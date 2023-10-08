@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace OEM_RockPaperScissors
 {
-    public class BaseGame
+    internal interface IRockPaperScissors
     {
+        public void ResetGame();
 
-        public BaseGame() { }
+        public void PlayGame();
     }
 }
